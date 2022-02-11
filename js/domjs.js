@@ -4,7 +4,7 @@ showDiv(imageCounter);
 function changeteam(m) {
     Showdiv(imageCounter = imageCounter + m);
 }
-function Showdiv (n) {
+function ShowDiv (n) {
     var i;
     var imageArray = document.getElementsByClassName ("myslides");
     if (n > imageArray.length) { 
