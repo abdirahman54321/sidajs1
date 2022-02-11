@@ -1,20 +1,20 @@
 "use strict";
 var imagecounter= 1;
-showdiv(imagecounter);
+showdiv(imageCounter);
 function changeteam(m) {
-    Showdiv(imagecounter = imagecounter + m);
+    Showdiv(imageCounter = imageCounter + m);
 }
 function Showdiv (n) {
     var i;
     var imageArray = document.getElementsByClassName ("myslides");
     if (n > imageArray.length) { 
-        imagecounter = 1;
+        imageCounter = 1;
 }
 if (n < 1) {
-    imagecounter = imageArray.length;
+    imageCounter = imageArray.length;
 }
 for (i = 0; i < imageArray.length; i++) {
     imageArray[i].style.display = "none";
 }
-imageArray[imagecounter - 1].style.display = "block";
+imageArray[imageCounter - 1].style.display = "block";
 }
