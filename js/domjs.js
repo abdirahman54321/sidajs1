@@ -1,12 +1,12 @@
 "use strict";
-var imageCounter = 1;
+var imageCounter= 1;
 showDiv(imageCounter);
 function changeImage(m) {
     Showdiv(imageCounter = imageCounter + m);
 }
 function ShowDiv (n) {
     var i;
-    var imageArray = document.getElementsByClassName ("myslides");
+    var imageArray = document.getElementsByClassName ("mySlides");
     if (n > imageArray.length) { 
         imageCounter = 1;
 }
