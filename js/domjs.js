@@ -1,7 +1,7 @@
 "use strict";
-var imagecounter= 1;
+var imageCounter = 1;
 showDiv(imageCounter);
-function changeteam(m) {
+function changeImage(m) {
     Showdiv(imageCounter = imageCounter + m);
 }
 function ShowDiv (n) {
