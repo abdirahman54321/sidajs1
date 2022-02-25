@@ -1,6 +1,6 @@
 "use strict";
 var imageCounter = 1;
-showDiv(imageCounter);
+ShowDiv(imageCounter);
 function changeImage(m) {
     ShowDiv(imageCounter = imageCounter + m);
 }
